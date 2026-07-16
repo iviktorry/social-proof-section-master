@@ -3,112 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
     <title>Frontend Mentor | Social proof section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 0.6875rem;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>10,000+ of our users love our products.</h1>
-      <p>
-        We only provide great products combined with excellent customer service.
-        See what our satisfied customers saying about our services.
-      </p>
-    </header>
-    <div class="rating-block">
-      <div class="rating">
-        <span>
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-        </span>
-        <h6>Rated 5 Stars in Reviews</h6>
+      <div class="hero">
+        <h1 class="hero__title">10,000+ of our users love our products.</h1>
+        <p class="hero__text">
+          We only provide great products combined with excellent customer
+          service. See what our satisfied customers saying about our services.
+        </p>
       </div>
-      <div class="rating">
-        <span>
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-        </span>
-        <h6>Rated 5 Stars in Report Guru</h6>
-      </div>
-      <div class="rating">
-        <span>
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-          <img src="/images/icon-star.svg" alt="icon-star" />
-        </span>
-        <h6>Rated 5 Stars in BestTech</h6>
-      </div>
-    </div>
 
-    <div class="opinion-block">
-      <div class="opinion">
-        <span>
-          <img src="/images/image-colton.jpg" alt="colton-opinion" />
-          <div class="opinion__name">
-            <p class="name">Colton Smith</p>
-            <p class="status">Verified Buyer</p>
+      <div class="rating-list">
+        <div class="rating-list__item" id="rating-1">
+          <div class="rating-list__stars">
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
           </div>
-        </span>
-        <p class="opinion__text">
-          "We needed the same printed design as the one we had ordered a week
+          <h4 class="rating-list__label">Rated 5 Stars in Reviews</h4>
+        </div>
+        <div class="rating-list__item" id="rating-2">
+          <div class="rating-list__stars">
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+          </div>
+          <h4 class="rating-list__label">Rated 5 Stars in Report Guru</h4>
+        </div>
+        <div class="rating-list__item" id="rating-3">
+          <div class="rating-list__stars">
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+            <img src="/images/icon-star.svg" alt="icon-star" />
+          </div>
+          <h4 class="rating-list__label">Rated 5 Stars in BestTech</h4>
+        </div>
+      </div>
+    </header>
+
+    <footer class="reviews">
+      <figure class="review__item">
+        <figcaption class="review__author">
+          <img src="/images/image-colton.jpg" alt="" />
+          <p class="review__author-name">Colton Smith</p>
+          <p class="review__author-status">Verified Buyer</p>
+        </figcaption>
+        <blockquote class="review__quote">
+          We needed the same printed design as the one we had ordered a week
           prior. Not only did they find the original order, but we also recieved
-          it in time. Excellent!"
-        </p>
-      </div>
-      <div class="opinion">
-        <span>
-          <img src="/images/image-irene.jpg" alt="irene-opinion" />
-          <div class="opinion__name">
-            <p class="name">Irene Roberts</p>
-            <p class="status">Verified Buyer</p>
-          </div>
-        </span>
-        <p class="opinion__text">
-          "Customer service is always excellent and very quick turn around/
+          it in time. Excellent!
+        </blockquote>
+      </figure>
+      <figure class="review__item">
+        <figcaption class="review__name">
+          <img src="/images/image-irene.jpg" alt="" />
+          <p class="name">Irene Roberts</p>
+          <p class="status">Verified Buyer</p>
+        </figcaption>
+        <blockquote class="review__text">
+          Customer service is always excellent and very quick turn around/
           Completely delighted with the simplicity of the purchase and the speed
-          of delivery"
-        </p>
-      </div>
-      <div class="opinion">
-        <span>
-          <img src="/images/image-anne.jpg" alt="anne-opinion" />
-          <div class="opinion__name">
-            <p class="name">Anne Wallace</p>
-            <p class="status">Verified Buyer</p>
-          </div>
-        </span>
-        <p class="opinion__text">
-          "Put an order with this company and can only praise them for the very
+          of delivery
+        </blockquote>
+      </figure>
+      <figure class="review__item">
+        <figcaption class="review__name">
+          <img src="/images/image-anne.jpg" alt="" />
+          <p class="name">Anne Wallace</p>
+          <p class="status">Verified Buyer</p>
+        </figcaption>
+        <blockquote class="review__text">
+          Put an order with this company and can only praise them for the very
           hing standard. Will definitely use them again and recommend them to
-          everyone! "
-        </p>
-      </div>
-    </div>
+          everyone!
+        </blockquote>
+      </figure>
+    </footer>
   </body>
 </html>
