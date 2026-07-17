@@ -7,86 +7,94 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="hero">
-        <h1 class="hero__title">10,000+ of our users love our products.</h1>
-        <p class="hero__text">
-          We only provide great products combined with excellent customer
-          service. See what our satisfied customers saying about our services.
-        </p>
-      </div>
+    <main>
+      <section class="ratings-section">
+        <div class="hero">
+          <h1 class="hero__title">10,000+ of our users love our products.</h1>
+          <p class="hero__text">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers saying about our services.
+          </p>
+        </div>
 
-      <div class="rating-list">
-        <div class="rating-list__item" id="rating-1">
-          <div class="rating-list__stars">
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
+        <div class="rating-list">
+          <div class="rating rating--top" >
+            <div class="rating__stars">
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+            </div>
+            <h4 class="rating__label">Rated 5 Stars in Reviews</h4>
           </div>
-          <h4 class="rating-list__label">Rated 5 Stars in Reviews</h4>
-        </div>
-        <div class="rating-list__item" id="rating-2">
-          <div class="rating-list__stars">
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
+          <div class="rating rating--center" >
+            <div class="rating__stars">
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+            </div>
+            <h4 class="rating__label">Rated 5 Stars in Report Guru</h4>
           </div>
-          <h4 class="rating-list__label">Rated 5 Stars in Report Guru</h4>
-        </div>
-        <div class="rating-list__item" id="rating-3">
-          <div class="rating-list__stars">
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
-            <img src="/images/icon-star.svg" alt="icon-star" />
+          <div class="rating rating--bottom">
+            <div class="rating__stars">
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+              <img src="/images/icon-star.svg" alt="icon-star" />
+            </div>
+            <h4 class="rating__label">Rated 5 Stars in BestTech</h4>
           </div>
-          <h4 class="rating-list__label">Rated 5 Stars in BestTech</h4>
         </div>
-      </div>
-    </header>
+      </section>
 
-    <footer class="reviews">
-      <figure class="review__item">
-        <figcaption class="review__author">
-          <img src="/images/image-colton.jpg" alt="" />
-          <p class="review__author-name">Colton Smith</p>
-          <p class="review__author-status">Verified Buyer</p>
-        </figcaption>
-        <blockquote class="review__quote">
-          We needed the same printed design as the one we had ordered a week
-          prior. Not only did they find the original order, but we also recieved
-          it in time. Excellent!
-        </blockquote>
-      </figure>
-      <figure class="review__item">
-        <figcaption class="review__name">
-          <img src="/images/image-irene.jpg" alt="" />
-          <p class="name">Irene Roberts</p>
-          <p class="status">Verified Buyer</p>
-        </figcaption>
-        <blockquote class="review__text">
-          Customer service is always excellent and very quick turn around/
-          Completely delighted with the simplicity of the purchase and the speed
-          of delivery
-        </blockquote>
-      </figure>
-      <figure class="review__item">
-        <figcaption class="review__name">
-          <img src="/images/image-anne.jpg" alt="" />
-          <p class="name">Anne Wallace</p>
-          <p class="status">Verified Buyer</p>
-        </figcaption>
-        <blockquote class="review__text">
-          Put an order with this company and can only praise them for the very
-          hing standard. Will definitely use them again and recommend them to
-          everyone!
-        </blockquote>
-      </figure>
-    </footer>
+      <section class="review-section">
+        <figure class="review review--top" >
+          <figcaption class="review__author">
+            <img src="/images/image-colton.jpg" alt="" />
+            <div class="review__info">
+              <p class="review__name">Colton Smith</p>
+              <p class="review__status">Verified Buyer</p>
+            </div>
+          </figcaption>
+          <blockquote class="review__quote">
+            "We needed the same printed design as the one we had ordered a week
+            prior. Not only did they find the original order, but we also
+            recieved it in time. Excellent!"
+          </blockquote>
+        </figure>
+        <figure class="review review--center"">
+          <figcaption class="review__author">
+            <img src="/images/image-irene.jpg" alt="" />
+            <div class="review__info">
+              <p class="review__name">Irene Roberts</p>
+              <p class="review__status">Verified Buyer</p>
+            </div>
+          </figcaption>
+          <blockquote class="review__quote">
+            " Customer service is always excellent and very quick turn around/
+            Completely delighted with the simplicity of the purchase and the
+            speed of delivery"
+          </blockquote>
+        </figure>
+        <figure class="review review--bottom">
+          <figcaption class="review__author">
+            <img src="/images/image-anne.jpg" alt="" />
+            <div class="review__info">
+              <p class="review__name">Anne Wallace</p>
+              <p class="review__status">Verified Buyer</p>
+            </div>
+          </figcaption>
+          <blockquote class="review__quote">
+            " Put an order with this company and can only praise them for the
+            very hing standard. Will definitely use them again and recommend
+            them to everyone!"
+          </blockquote>
+        </figure>
+      </section>
+    </main>
   </body>
 </html>
