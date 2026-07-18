@@ -23,7 +23,7 @@ Light Grayish Magenta: hsl(300, 24%, 96%)
 White: hsl(0, 0%, 100%)
 
 ## Typography
-
+ 
 ### Body Copy
 
 - Font size: 15px
