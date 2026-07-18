@@ -7,7 +7,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  <!-- - [Links](#links) -->
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -27,9 +27,9 @@ Users should be able to:
 
 ![alt text](image.png)
 
-<!-- ### Links -->
+### Links
 
-<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Live Site URL: [https://iviktorry.github.io/social-proof-section-master/](https://iviktorry.github.io/social-proof-section-master/)
 
 ## My process
 
