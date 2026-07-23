@@ -29,6 +29,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [github](https://github.com/iviktorry/social-proof-section-master)
 - Live Site URL: [https://iviktorry.github.io/social-proof-section-master/](https://iviktorry.github.io/social-proof-section-master/)
 
 ## My process
